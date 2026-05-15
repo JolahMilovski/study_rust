@@ -35,7 +35,7 @@ fn main() {
     println!("Ограничение: {}", value3.clamp(min_val, max_val)); // 2 (ограничено min_val)
 
     let num = 3.5f64;
-    println!("Rounded num: {}", rounded_num);
+    println!("Rounded num: {}", num);
 
     let num = 3.7f64;
     let rounded_num = num.floor(); // rounded_num будет 3.0
